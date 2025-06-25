@@ -83,7 +83,7 @@ function actualizarBotones() {
             boton.textContent = "Eliminar de Cars";
         } else {
             boton.classList.remove("seleccionado");
-            boton.textContent = "Añadir a Cars";
+            boton.textContent = "Añadir al carrito";
         }
     });
 }
