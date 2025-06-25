@@ -119,19 +119,6 @@ html {
     .carousel-item {
         width: 100%;
     }
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 50%;
-    z-index: 10;
-}
     .cours-container {
         display: flex;
         flex-wrap: wrap;
@@ -287,6 +274,18 @@ a {
     height: auto;
 }
 
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
