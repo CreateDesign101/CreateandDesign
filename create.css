@@ -273,9 +273,20 @@ a {
     display: block;
     height: auto;
 }
-
+button{
+    background-color: #222;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    width: 95%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
 button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(225, 23, 23, 0.8);
 }
 
 .prev {
