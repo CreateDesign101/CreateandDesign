@@ -381,7 +381,6 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centra los cuadros horizontalmente */
-
     gap: 20px; /* Espaciado entre los cuadros */
     padding: 20px;
     max-width: 1200px;
