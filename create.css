@@ -73,9 +73,9 @@ html {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .cours-container .cour-card {
-        width: calc(50% - 20px); /* Dos columnas por fila en pantallas pequeñas */
+        width: calc(45% - 20px); /* Dos columnas por fila en pantallas pequeñas */
         text-align: center;
         align-items: center;
     }
@@ -214,7 +214,7 @@ a {
 }
 
 /* Media Queries para hacerlo responsive */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .cta {
         padding: 12px 15px;  /* Reduce el padding en pantallas pequeñas */
         font-size: 14px;      /* Reduce el tamaño del texto */
@@ -323,7 +323,7 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 20px;
-    padding: 20px;
+    padding: 35px;
 }
 
 .course {
